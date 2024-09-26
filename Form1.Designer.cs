@@ -32,36 +32,36 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.Name_services = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Subscription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBoxEndDate = new System.Windows.Forms.TextBox();
+            this.textBoxStartDate = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.button4 = new System.Windows.Forms.Button();
+            this.Discount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Birthday = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Full_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Client_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Client_id = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.Services_id = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.cost_subscription = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Number_of_classes = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.number_of_visits = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Full_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Birthday = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Discount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.textBoxEndDate = new System.Windows.Forms.TextBox();
-            this.textBoxStartDate = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.Name_services = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Subscription = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -127,64 +127,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(1233, 353);
             this.dataGridView1.TabIndex = 0;
             // 
-            // id
-            // 
-            this.id.DataPropertyName = "id";
-            this.id.HeaderText = "id";
-            this.id.MinimumWidth = 6;
-            this.id.Name = "id";
-            this.id.Width = 125;
-            // 
-            // Client_id
-            // 
-            this.Client_id.DataPropertyName = "Client_id";
-            this.Client_id.HeaderText = "Клиент";
-            this.Client_id.MinimumWidth = 6;
-            this.Client_id.Name = "Client_id";
-            this.Client_id.Width = 125;
-            // 
-            // Services_id
-            // 
-            this.Services_id.DataPropertyName = "Services_id";
-            this.Services_id.HeaderText = "Услуга";
-            this.Services_id.MinimumWidth = 6;
-            this.Services_id.Name = "Services_id";
-            this.Services_id.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Services_id.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Services_id.Width = 125;
-            // 
-            // cost_subscription
-            // 
-            this.cost_subscription.DataPropertyName = "cost_subscription";
-            this.cost_subscription.HeaderText = "Цена подписки";
-            this.cost_subscription.MinimumWidth = 6;
-            this.cost_subscription.Name = "cost_subscription";
-            this.cost_subscription.Width = 125;
-            // 
-            // Price
-            // 
-            this.Price.DataPropertyName = "Price";
-            this.Price.HeaderText = "Оплачено";
-            this.Price.MinimumWidth = 6;
-            this.Price.Name = "Price";
-            this.Price.Width = 125;
-            // 
-            // Number_of_classes
-            // 
-            this.Number_of_classes.DataPropertyName = "Number_of_classes";
-            this.Number_of_classes.HeaderText = "Количество занятий";
-            this.Number_of_classes.MinimumWidth = 6;
-            this.Number_of_classes.Name = "Number_of_classes";
-            this.Number_of_classes.Width = 125;
-            // 
-            // number_of_visits
-            // 
-            this.number_of_visits.DataPropertyName = "number_of_visits";
-            this.number_of_visits.HeaderText = "количество посящений";
-            this.number_of_visits.MinimumWidth = 6;
-            this.number_of_visits.Name = "number_of_visits";
-            this.number_of_visits.Width = 125;
-            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.button2);
@@ -222,46 +164,6 @@
             this.dataGridView2.Size = new System.Drawing.Size(1196, 346);
             this.dataGridView2.TabIndex = 0;
             // 
-            // number
-            // 
-            this.number.DataPropertyName = "id";
-            this.number.HeaderText = "id";
-            this.number.MinimumWidth = 6;
-            this.number.Name = "number";
-            this.number.Width = 170;
-            // 
-            // Full_Name
-            // 
-            this.Full_Name.DataPropertyName = "Full_Name";
-            this.Full_Name.HeaderText = "ФИО";
-            this.Full_Name.MinimumWidth = 6;
-            this.Full_Name.Name = "Full_Name";
-            this.Full_Name.Width = 170;
-            // 
-            // gender
-            // 
-            this.gender.DataPropertyName = "gender ";
-            this.gender.HeaderText = "пол";
-            this.gender.MinimumWidth = 6;
-            this.gender.Name = "gender";
-            this.gender.Width = 170;
-            // 
-            // Birthday
-            // 
-            this.Birthday.DataPropertyName = "Birthday";
-            this.Birthday.HeaderText = "День рождения";
-            this.Birthday.MinimumWidth = 6;
-            this.Birthday.Name = "Birthday";
-            this.Birthday.Width = 170;
-            // 
-            // Discount
-            // 
-            this.Discount.DataPropertyName = "Discount";
-            this.Discount.HeaderText = "Скидка";
-            this.Discount.MinimumWidth = 6;
-            this.Discount.Name = "Discount";
-            this.Discount.Width = 170;
-            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.textBox3);
@@ -278,6 +180,31 @@
             this.tabPage3.Text = "Отчет1";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(22, 4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(613, 22);
+            this.textBox3.TabIndex = 6;
+            this.textBox3.Text = "Вывести наименование услуг и количество абониментов с данной услугой в промежуток" +
+    "";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(39, 61);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(37, 22);
+            this.textBox2.TabIndex = 5;
+            this.textBox2.Text = "По";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(39, 33);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(21, 22);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "C";
+            // 
             // dataGridView3
             // 
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -290,6 +217,22 @@
             this.dataGridView3.RowTemplate.Height = 24;
             this.dataGridView3.Size = new System.Drawing.Size(1201, 314);
             this.dataGridView3.TabIndex = 3;
+            // 
+            // Name_services
+            // 
+            this.Name_services.DataPropertyName = "Name_services";
+            this.Name_services.HeaderText = "Услуги";
+            this.Name_services.MinimumWidth = 6;
+            this.Name_services.Name = "Name_services";
+            this.Name_services.Width = 425;
+            // 
+            // Subscription
+            // 
+            this.Subscription.DataPropertyName = "numvisits";
+            this.Subscription.HeaderText = "количество абониментов";
+            this.Subscription.MinimumWidth = 6;
+            this.Subscription.Name = "Subscription";
+            this.Subscription.Width = 425;
             // 
             // textBoxEndDate
             // 
@@ -327,6 +270,14 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Отчет2";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(11, 4);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(495, 22);
+            this.textBox4.TabIndex = 3;
+            this.textBox4.Text = "Вывести наименнование услуги и количество посящений этих услуг в ";
             // 
             // numericUpDown1
             // 
@@ -370,54 +321,101 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textBox1
+            // Discount
             // 
-            this.textBox1.Location = new System.Drawing.Point(39, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(21, 22);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "C";
+            this.Discount.DataPropertyName = "Discount";
+            this.Discount.HeaderText = "Скидка";
+            this.Discount.MinimumWidth = 6;
+            this.Discount.Name = "Discount";
+            this.Discount.Width = 170;
             // 
-            // textBox2
+            // Birthday
             // 
-            this.textBox2.Location = new System.Drawing.Point(39, 61);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(37, 22);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "По";
+            this.Birthday.DataPropertyName = "Birthday";
+            this.Birthday.HeaderText = "День рождения";
+            this.Birthday.MinimumWidth = 6;
+            this.Birthday.Name = "Birthday";
+            this.Birthday.Width = 170;
             // 
-            // textBox3
+            // gender
             // 
-            this.textBox3.Location = new System.Drawing.Point(22, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(613, 22);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "Вывести наименование услуг и количество абониментов с данной услугой в промежуток" +
-    "";
+            this.gender.DataPropertyName = "gender ";
+            this.gender.HeaderText = "пол";
+            this.gender.MinimumWidth = 6;
+            this.gender.Name = "gender";
+            this.gender.Width = 170;
             // 
-            // Name_services
+            // Full_Name
             // 
-            this.Name_services.DataPropertyName = "Name_services";
-            this.Name_services.HeaderText = "Услуги";
-            this.Name_services.MinimumWidth = 6;
-            this.Name_services.Name = "Name_services";
-            this.Name_services.Width = 425;
+            this.Full_Name.DataPropertyName = "Full_Name";
+            this.Full_Name.HeaderText = "ФИО";
+            this.Full_Name.MinimumWidth = 6;
+            this.Full_Name.Name = "Full_Name";
+            this.Full_Name.Width = 170;
             // 
-            // Subscription
+            // number
             // 
-            this.Subscription.DataPropertyName = "numvisits";
-            this.Subscription.HeaderText = "количество абониментов";
-            this.Subscription.MinimumWidth = 6;
-            this.Subscription.Name = "Subscription";
-            this.Subscription.Width = 425;
+            this.number.DataPropertyName = "id";
+            this.number.HeaderText = "id";
+            this.number.MinimumWidth = 6;
+            this.number.Name = "number";
+            this.number.Width = 170;
             // 
-            // textBox4
+            // id
             // 
-            this.textBox4.Location = new System.Drawing.Point(11, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(495, 22);
-            this.textBox4.TabIndex = 3;
-            this.textBox4.Text = "Вывести наименнование услуги и количество посящений этих услуг в ";
+            this.id.DataPropertyName = "id";
+            this.id.HeaderText = "id";
+            this.id.MinimumWidth = 6;
+            this.id.Name = "id";
+            this.id.Width = 120;
+            // 
+            // Client_id
+            // 
+            this.Client_id.DataPropertyName = "Client_id";
+            this.Client_id.HeaderText = "Клиент";
+            this.Client_id.MinimumWidth = 6;
+            this.Client_id.Name = "Client_id";
+            this.Client_id.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Client_id.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Client_id.Width = 230;
+            // 
+            // Services_id
+            // 
+            this.Services_id.DataPropertyName = "Services_id";
+            this.Services_id.HeaderText = "Услуга";
+            this.Services_id.MinimumWidth = 6;
+            this.Services_id.Name = "Services_id";
+            this.Services_id.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Services_id.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Services_id.Width = 125;
+            // 
+            // cost_subscription
+            // 
+            this.cost_subscription.DataPropertyName = "cost_subscription";
+            this.cost_subscription.HeaderText = "Цена подписки";
+            this.cost_subscription.MinimumWidth = 6;
+            this.cost_subscription.Name = "cost_subscription";
+            // 
+            // Price
+            // 
+            this.Price.DataPropertyName = "Price";
+            this.Price.HeaderText = "Оплачено";
+            this.Price.MinimumWidth = 6;
+            this.Price.Name = "Price";
+            // 
+            // Number_of_classes
+            // 
+            this.Number_of_classes.DataPropertyName = "Number_of_classes";
+            this.Number_of_classes.HeaderText = "Количество занятий";
+            this.Number_of_classes.MinimumWidth = 6;
+            this.Number_of_classes.Name = "Number_of_classes";
+            // 
+            // number_of_visits
+            // 
+            this.number_of_visits.DataPropertyName = "number_of_visits";
+            this.number_of_visits.HeaderText = "количество посящений";
+            this.number_of_visits.MinimumWidth = 6;
+            this.number_of_visits.Name = "number_of_visits";
             // 
             // Form1
             // 
@@ -453,13 +451,6 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Client_id;
-        private System.Windows.Forms.DataGridViewComboBoxColumn Services_id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cost_subscription;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Number_of_classes;
-        private System.Windows.Forms.DataGridViewTextBoxColumn number_of_visits;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox textBoxEndDate;
@@ -468,17 +459,24 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn number;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Full_Name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gender;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Birthday;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Discount;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Name_services;
         private System.Windows.Forms.DataGridViewTextBoxColumn Subscription;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn number;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Full_Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gender;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Birthday;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Discount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Client_id;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Services_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cost_subscription;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Number_of_classes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn number_of_visits;
     }
 }
 

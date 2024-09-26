@@ -62,6 +62,14 @@ namespace lab1
                 "Name_services";
             ((DataGridViewComboBoxColumn)dataGridView1.Columns["Services_id"]).ValueMember =
                 "id";
+
+            ((DataGridViewComboBoxColumn)dataGridView1.Columns["Client_id"]).DataSource =
+              dataSet.Tables["Client"];
+            ((DataGridViewComboBoxColumn)dataGridView1.Columns["Client_id"]).DisplayMember =
+                "Full_Name";
+            ((DataGridViewComboBoxColumn)dataGridView1.Columns["Client_id"]).ValueMember =
+                "id";
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -78,7 +86,6 @@ namespace lab1
             {
                 using (NpgsqlConnection connection = new NpgsqlConnection(connectionString))
                 {
-                    // Создаем SQL-запрос с параметрами
                     string sql = @"SELECT ""услуги"".""Name_services"", COUNT(visit.""id"") AS NumVisits 
                        FROM ""Services"" AS ""услуги"" 
                        LEFT JOIN ""Subscription"" AS sub ON ""услуги"".""id"" = sub.""Services_id"" 
@@ -144,7 +151,6 @@ namespace lab1
                     sqlAdapter.Fill(dataTable);
                 }
 
-                // Устанавливаем источник данных для DataGridView или другого элемента управления
                 dataGridView4.DataSource = dataTable;
             }
 
